@@ -229,6 +229,7 @@
         android:id="@+id/c"
         android:layout_width="102dp"
         android:layout_height="86dp"
+        android:onClick="buttonC"
         android:text="C"
         android:textSize="20sp"
         android:textStyle="bold"

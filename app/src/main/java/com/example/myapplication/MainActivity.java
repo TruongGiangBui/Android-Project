@@ -43,7 +43,10 @@ public class MainActivity extends AppCompatActivity {
             input.setText(stringBuilder.toString());
         }
     }
-
+    public void buttonC(View view){
+        stringBuilder.setLength(0);
+        input.setText(stringBuilder.toString());
+    }
     public void addNumber(View view) {
         switch (view.getId()){
             case R.id.num0:
